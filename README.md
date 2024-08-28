@@ -38,6 +38,7 @@ Following are the major dependencies of the project:
 
 - Node.js must be installed on the system.
 - You should have a MongoDB database.
+- Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
 
 ## Installation and Setup
 
