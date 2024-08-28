@@ -41,17 +41,23 @@ Following are the major dependencies of the project:
 - Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
 
 ## Installation and Setup
+1. Clone the repo:
 
-1. Install all the dependencies
+   ```sh
+   git clone https://github.com/kunaldeshwal1/Task_management.git
+   ```
+
+
+2. Install all the dependencies
 
    ```sh
    npm run install-all
    ```
 
-2. Start the application
+3. Start the application
 
    ```sh
    npm run dev
    ```
 
-3. Go to http://localhost:3000
+4. Go to http://localhost:3000
