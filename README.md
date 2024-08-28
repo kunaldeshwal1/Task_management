@@ -60,7 +60,7 @@ Following are the major dependencies of the project:
    npm run install-all
    ```
 
-4. Start the application
+4. Start the application at root directory (This will run both Backend and Frontend):
 
    ```sh
    npm run dev
