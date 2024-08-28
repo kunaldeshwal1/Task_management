@@ -47,17 +47,23 @@ Following are the major dependencies of the project:
    git clone https://github.com/kunaldeshwal1/Task_management.git
    ```
 
+2. Change to the working directory:
 
-2. Install all the dependencies
+   ```sh
+   cd Task_management
+   ```
+
+
+3. Install all the dependencies
 
    ```sh
    npm run install-all
    ```
 
-3. Start the application
+4. Start the application
 
    ```sh
    npm run dev
    ```
 
-4. Go to http://localhost:3000
+5. Go to http://localhost:3000
