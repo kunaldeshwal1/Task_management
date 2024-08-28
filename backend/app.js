@@ -16,7 +16,9 @@ mongoose.connect(mongoUrl, err => {
   if (err) throw err;
   console.log("Mongodb connected...");
 });
-
+app.use("/",(req,res)=>{
+  res.send("Hello from backend!")
+})
 app.use("/api/auth", authRoutes);
 app.use("/api/tasks", taskRoutes);
 app.use("/api/profile", profileRoutes);
